@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie App</title>
+    <title>MovieApp</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <h1 class="heading" id="heading">Movie<span>App</span></h1>
         <form id="form">
             <input type="text" id="search" placeholder="Search" class="search" />
         </form>
     </header>
+    <div id="tags">
+    </div>
     <main id="main"></main>
+    <div class="pagination" id='pagination'>
+        <div class="page disabled" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
 </body> 
 <script src="script.js"></script>
 </html>
